@@ -1,0 +1,93 @@
+{
+    "compileOnSave": false,
+    "compilerOptions": {
+        "rootDir": ".",
+        "sourceMap": true,
+        "declaration": false,
+        "moduleResolution": "node",
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "importHelpers": true,
+        "target": "es2015",
+        "module": "esnext",
+        "lib": [
+            "es2017",
+            "dom"
+        ],
+        "skipLibCheck": true,
+        "skipDefaultLibCheck": true,
+        "baseUrl": ".",
+        "paths": {
+            "@store/api-core": [
+                "libs/api-core/src/index.ts"
+            ],
+            "@store/api-core/database": [
+                "libs/api-core/src/lib/database/index.ts"
+            ],
+            "@store/api-core/decorator": [
+                "libs/api-core/src/lib/decorators/index.ts"
+            ],
+            "@store/api-core/filter": [
+                "libs/api-core/src/lib/filters/index.ts"
+            ],
+            "@store/api-core/guard": [
+                "libs/api-core/src/lib/guards/index.ts"
+            ],
+            "@store/api-core/passport": [
+                "libs/api-core/src/lib/passport/index.ts"
+            ],
+            "@store/api-core/service": [
+                "libs/api-core/src/lib/services/index.ts"
+            ],
+            "@store/constant": [
+                "libs/constant/src/index.ts"
+            ],
+            "@store/dto": [
+                "libs/dto/src/index.ts"
+            ],
+            "@store/types": [
+                "libs/types/src/index.ts"
+            ],
+            "@store/ui-core": [
+                "libs/ui-core/src/index.ts"
+            ],
+            "@store/ui-core/api": [
+                "libs/ui-core/src/services/api/index.ts"
+            ],
+            "@store/ui-core/assets": [
+                "libs/ui-core/src/assets/index.ts"
+            ],
+            "@store/ui-core/components": [
+                "libs/ui-core/src/components/index.ts"
+            ],
+            "@store/ui-core/hooks": [
+                "libs/ui-core/src/hooks/index.ts"
+            ],
+            "@store/ui-core/i18n": [
+                "libs/ui-core/src/i18n/index.ts"
+            ],
+            "@store/ui-core/recoil": [
+                "libs/ui-core/src/services/recoil/index.ts"
+            ],
+            "@store/ui-core/services": [
+                "libs/ui-core/src/services/index.ts"
+            ],
+            "@store/utils": [
+                "libs/utils/src/index.ts"
+            ],
+            "@store/utils/ui": [
+                "libs/utils/src/lib/ui-utils/index.ts"
+            ],
+            "@store/utils/api": [
+                "libs/utils/src/lib/api-utils/index.ts"
+            ],
+            "@store/validators": [
+                "libs/validators/src/index.ts"
+            ]
+        }
+    },
+    "exclude": [
+        "node_modules",
+        "tmp"
+    ]
+}

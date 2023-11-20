@@ -1,0 +1,1 @@
+npm run typeorm migration:generate -- -d libs/api-core/src/lib/database/database.config.ts libs/api-core/src/lib/database/migrations/${migration_name}
