@@ -1,0 +1,22 @@
+{
+  "Exist": "$t(property.{property}) not exist in {entity}",
+  "IsArray": "$t(property.{property}) must be an array",
+  "IsNotEmpty": "$t(property.{property}) should not be empty",
+  "IsString": "$t(property.{property}) must be a string",
+  "IsEmail": "$t(property.{property}) must be an email",
+  "IsUUID": "$t(property.{property}) must be a UUID",
+  "IsNumber": "$t(property.{property}) must be a number",
+  "IsNumberString": "$t(property.{property}) must be a number string",
+  "IsNotEmptyObject": "$t(property.{property}) must be a non-empty object",
+  "IsBoolean": "$t(property.{property}) must be a boolean value",
+  "IsDateString": "$t(property.{property}) must be a valid ISO 8601 date string",
+  "IsObject": "$t(property.{property}) must be an object",
+  "IsUUIDArray": "$t(property.{property}) should be array of UUID",
+  "IsEnum": "$t(property.{property}) must be a valid enum value",
+  "LengthMin": "$t(property.{property}) must be longer than or equal to {num} characters",
+  "LengthMax": "$t(property.{property}) must be shorter than or equal to {num} characters",
+  "Min": "$t(property.{property}) must not be less than {num}",
+  "Max": "$t(property.{property}) must not be more than {num}",
+  "Matches": "Weak Password",
+  "Unique": "{entity} with the same '$t(property.{property})' already exist"
+}

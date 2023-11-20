@@ -1,0 +1,8 @@
+{
+    "name": "constant",
+    "$schema": "../../node_modules/nx/schemas/project-schema.json",
+    "sourceRoot": "libs/constant/src",
+    "projectType": "library",
+    "targets": {},
+    "tags": []
+}

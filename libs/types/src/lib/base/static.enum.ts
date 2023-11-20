@@ -1,0 +1,15 @@
+export enum Static {
+    CURRENT_USER = 'current-user',
+    DIR = 'dir',
+    I18N_LNG = 'i18nextLng',
+    ROOT_URL = 'rootUrl',
+    ROOT_API = 'rootApi',
+    THEME = 'theme',
+    ACCESS_TOKEN = 'accessToken',
+    REFRESH_TOKEN = 'refreshToken',
+    SOCKET = 'socket',
+    SIDEBAR = 'sidebar',
+    CURRENT_PAGE = 'current-page',
+    NAVBAR_BUTTON_PATH = 'navbar-button-path',
+    NAVBAR_BUTTON_SHOW = 'navbar-button-show',
+}

@@ -1,0 +1,5 @@
+export { default as Auth } from './auth'
+export { default as Dashboard } from './dashboard'
+// export * from './auth'
+// export * from './dashboard'
+export * from './routes'

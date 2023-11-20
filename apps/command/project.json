@@ -1,0 +1,43 @@
+{
+    "name": "command",
+    "$schema": "../../node_modules/nx/schemas/project-schema.json",
+    "sourceRoot": "apps/command/src",
+    "projectType": "application",
+    "targets": {
+        "build": {
+            "executor": "@nrwl/webpack:webpack",
+            "outputs": ["{options.outputPath}"],
+            "defaultConfiguration": "production",
+            "options": {
+                "target": "node",
+                "compiler": "tsc",
+                "outputPath": "dist/apps/command",
+                "main": "apps/command/src/main.ts",
+                "tsConfig": "apps/command/tsconfig.app.json",
+                "assets": ["apps/command/src/assets"],
+                "isolatedConfig": true,
+                "webpackConfig": "apps/command/webpack.config.js"
+            },
+            "configurations": {
+                "development": {},
+                "production": {}
+            }
+        },
+        "serve": {
+            "executor": "@nrwl/js:node",
+            "defaultConfiguration": "development",
+            "options": {
+                "buildTarget": "command:build"
+            },
+            "configurations": {
+                "development": {
+                    "buildTarget": "command:build:development"
+                },
+                "production": {
+                    "buildTarget": "command:build:production"
+                }
+            }
+        }
+    },
+    "tags": []
+}

@@ -1,0 +1,23 @@
+{
+  "Exist": "$t(property.{property}) غير متواجد في {entity}",
+  "IsArray": "$t(property.{property}) يجب أن يكون مصفوفة",
+  "IsNotEmpty": "$t(property.{property}) لا يجب أن يكون فارغ",
+  "IsString": "$t(property.{property}) يجب أن يكون سلسلة",
+  "IsEmail": "$t(property.{property}) يجب أن يكون بريد إالكتروني",
+  "IsUUID": "$t(property.{property}) يجب أن يكون UUID",
+  "IsNumber": "$t(property.{property}) يجب أن يكون رقم",
+  "IsNumberString": "$t(property.{property}) يجب أن يكون رقم كسلسلة",
+  "IsNotEmptyObject": "$t(property.{property}) يجب أن يكون أوبجكت غير فارغ",
+  "IsBoolean": "$t(property.{property}) يجب أن يكون قيمة منطقية",
+  "IsDateString": "$t(property.{property}) يجب أن تكون سلسلة تاريخ صالحة ISO 8601",
+  "IsObject": "$t(property.{property}) يجب أن يكون أوبجكت",
+  "IsUUIDArray": "$t(property.{property}) يجب أن يكون مصفوفة من UUID",
+  "IsEnum": "$t(property.{property}) must be a valid enum value",
+  "LengthMin": "$t(property.{property}) يجب أن يكون أكبر أو يساوي {num} محرف",
+  "LengthMax": "$t(property.{property}) يجب أن يكون أصغر أو يساوي {num} محرف",
+  "Length": "$t(property.{property}) يجب أن يكون أكبر أو يساوي {num1} محرف و يجب أن يكون أصغر أو يساوي {num2} محرف",
+  "Min": "$t(property.{property}) لا يجب أن يقل عن {num}",
+  "Max": "$t(property.{property}) لا يجب أن يزيد عن {num}",
+  "Matches": "كلمة المرور ضعيفة",
+  "Unique": "{entity} مع نفس ال '$t(property.{property})' متواجد بالفعل"
+}
